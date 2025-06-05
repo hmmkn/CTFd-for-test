@@ -23,6 +23,7 @@ class Languages(str, RawEnum):
     ROMANIAN = "ro"
     SLOVENIAN = "sl"
     SWEDISH = "sv"
+    PERSIAN = "fa"
 
 
 LANGUAGE_NAMES = {
@@ -47,6 +48,7 @@ LANGUAGE_NAMES = {
     "ro": "Română",
     "sl": "Slovenščina",
     "sv": "Svenska",
+    "fa": "Persian",
 }
 
 SELECT_LANGUAGE_LIST = [("", "")] + [
